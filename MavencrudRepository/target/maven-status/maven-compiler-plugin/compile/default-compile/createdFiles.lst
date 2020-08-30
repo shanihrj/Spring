@@ -1,0 +1,6 @@
+com\main\Test.class
+com\model\Student.class
+com\controller\Bootcontroller.class
+com\serviceImpl\ServiceImpl.class
+com\serviceInter\ServiceI.class
+com\daoI\DaoInter.class

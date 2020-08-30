@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Bean.xml&apos; to &apos;com.counstructordi.primitive.Traingle.java&apos;&#x0D;&#x0A;- Original project: &apos;DependancyInjection&apos;&#x0D;&#x0A;- Destination element: &apos;com.counstructordi.primitive.Traingle.java&apos;&#x0D;&#x0A;- Original element: &apos;Bean.xml&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src&lt;com.counstructordi.primitive{Traingle.java" element1="Bean.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1571335801221" units="0" version="1.0"/>
+</session>

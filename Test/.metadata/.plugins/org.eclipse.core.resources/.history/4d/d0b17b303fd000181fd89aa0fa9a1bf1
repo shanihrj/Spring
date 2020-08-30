@@ -1,0 +1,54 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Success Page</title>
+<script type="text/javascript">
+function Add1() {
+	
+	document.myform.action="Register";
+	document.myform.submit();
+	
+}
+function dele(id) {
+	
+	document.myform.action="deleteU";
+	document.myform.submit();
+}
+function edi1() {
+	document.myform.action="edited";
+	document.myform.submit(); 
+}
+</script>
+</head>
+<body>
+<form name="myform">
+<table>
+<tr>
+<th>id</th>
+<th>Name</th>
+<th>City</th>
+<th>username</th>
+<th>password</th></tr>
+<c:forEach items="${data}" var="s">
+<tr>
+<td><input type="radio" value="${s.id}" name="id"></td>
+<td><c:out value="${s.name}"></c:out></td>
+<td><c:out value="${s.city}"></c:out></td>
+<td><c:out value="${s.uname}"></c:out></td>
+<td><c:out value="${s.pass}"></c:out></td>
+
+</tr>
+</c:forEach>
+
+
+</table>
+<input type="button" name="add" onclick="Add1()" value="Add new">
+<input type="button" name="del" onclick="dele()" value="Delete">
+<input type="button" name="edi" onclick="edi1()" value="EditUser">
+</form>
+</body>
+</html>

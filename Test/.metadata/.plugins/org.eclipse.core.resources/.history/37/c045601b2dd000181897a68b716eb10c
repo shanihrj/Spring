@@ -1,0 +1,18 @@
+package com.app.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.app.ServiceI.ServiceI;
+
+@Controller
+public class Mycontroller {
+@ Autowired
+ServiceI servive;
+@RequestMapping("/")
+public String login() {
+	return "Login";
+}
+
+}

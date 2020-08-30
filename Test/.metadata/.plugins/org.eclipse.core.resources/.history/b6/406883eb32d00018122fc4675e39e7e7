@@ -1,0 +1,17 @@
+package com.app.ServiceI;
+
+import java.util.List;
+
+import com.app.model.User;
+
+public interface ServiceI {
+public int registeruser(User user);
+	
+	public List<User> login(User user);
+	
+	public List<User> delet(User user);
+	
+	public User edit(User user);
+	
+	public List<User> update(User user);
+}

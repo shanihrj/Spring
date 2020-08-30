@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="TrialWork"/>
+			<item value="Trial"/>
+			<item value="com.getPrice"/>
+			<item value="com.selectlistajaxboot"/>
+			<item value="com.twotablecrudboot"/>
+			<item value="com.crudrepository2"/>
+			<item value="com.Isrole"/>
+			<item value="com.bootcrud"/>
+			<item value="com.SpringBootCurd"/>
+			<item value="com.calci"/>
+			<item value="maven_demo"/>
+			<item value="com.mm"/>
+			<item value="com.webmaven"/>
+			<item value="com.maven1"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="DemoWork"/>
+			<item value="BikePricing"/>
+			<item value="AjaxBootList"/>
+			<item value="SbootTwoTablecrud"/>
+			<item value="MavencrudRepository2"/>
+			<item value="Rolebased"/>
+			<item value="MavencrudRepository"/>
+			<item value="SpringBootCrud"/>
+			<item value="SpringCalci"/>
+			<item value="demo_maven"/>
+			<item value="MvenDemo2"/>
+			<item value="WebMavenDemo"/>
+			<item value="MavenDemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+			<item value="1.5.7.RELEASE"/>
+			<item value="1.5.7.RELESE"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Hemant\Desktop\Springbootusingjavascriptcountrystatecity"/>
+			<item value="C:\Users\Hemant\git\ROYAL_ENFIELD\royal_enfiled_project"/>
+			<item value="C:\Users\Hemant\git\ROYAL_ENFIELD"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="G:\Program Backup\Spring\MavencrudRepository\pom.xml"/>
+			<item value="G:\Program Backup\Spring\MavencrudRepository\src\main\java\com\serviceImpl\ServiceImpl.java"/>
+			<item value="G:\Program Backup\Spring\AjaxBootList\src\main\java\com\ServiceImpl\ServiceImpl.java"/>
+			<item value="G:\Program Backup\Spring\AjaxDemo3"/>
+			<item value="G:\Program Backup\Spring\MavencrudRepository"/>
+			<item value="G:\Program Backup\Spring\ModelAttributeAnnotation"/>
+			<item value="G:\Program Backup\Spring\MvenDemo2\src\main\java\com\config\Test.java"/>
+			<item value="G:\Program Backup\Spring\MavenDemo"/>
+			<item value="G:\Program Backup\Spring\MavenDemo\src\main\java\com\controller\Mycontroller.java"/>
+			<item value="G:\Program Backup\Spring\JavaBasedConfig1"/>
+			<item value="G:\Program Backup\Spring\Auto_wiring"/>
+			<item value="G:\Program Backup\Spring"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

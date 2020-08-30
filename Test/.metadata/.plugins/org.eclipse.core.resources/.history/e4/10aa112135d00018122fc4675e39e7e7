@@ -1,0 +1,43 @@
+package com.app.DaoImpl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.app.Daointerface.DaoInterface;
+import com.app.model.User;
+import com.mysql.cj.xdevapi.SessionFactory;
+@Repository
+public class DaoImpl implements DaoInterface{
+  
+	@Override
+	public int registeruser(User user) {
+		// TODO Auto-generated method stub
+		return 0 ;
+	}
+
+	@Override
+	public List<User> login(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<User> deleteUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User edit(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<User> update(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

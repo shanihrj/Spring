@@ -1,0 +1,7 @@
+package com.app.DaoImpl;
+
+import com.app.Daointerface.DaoInterface;
+
+public class DaoImpl implements DaoInterface{
+
+}

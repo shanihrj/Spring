@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: BikePricing
+Implementation-Version: 1.5.7.RELEASE
+Built-By: Hemant
+Implementation-Vendor-Id: com.getPrice
+Build-Jdk: 1.8.0_141
+Implementation-URL: http://projects.spring.io/spring-boot/BikePricing/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

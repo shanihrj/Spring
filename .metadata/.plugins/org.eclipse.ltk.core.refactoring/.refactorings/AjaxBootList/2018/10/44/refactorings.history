@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Test.java&apos; to &apos;AjaxBootApplication/src/main/java/com.cjc.main&apos;&#x0D;&#x0A;- Original project: &apos;AjaxBootList&apos;&#x0D;&#x0A;- Destination element: &apos;AjaxBootApplication/src/main/java/com.cjc.main&apos;&#x0D;&#x0A;- Original element: &apos;com.main.Test.java&apos;" description="Copy compilation unit" destination="=AjaxBootApplication/src\/main\/java&lt;com.cjc.main" element1="/src\/main\/java&lt;com.main{Test.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1540799220286" units="1" version="1.0"/>
+</session>

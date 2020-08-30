@@ -1,0 +1,31 @@
+package com.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Roll {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int rollid;
+	private String rollname;
+	
+	
+	public int getRollid() {
+		return rollid;
+	}
+	public void setRollid(int rollid) {
+		this.rollid = rollid;
+	}
+	public String getRollname() {
+		return rollname;
+	}
+	public void setRollname(String rollname) {
+		this.rollname = rollname;
+	}
+	
+	
+}

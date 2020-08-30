@@ -1,0 +1,103 @@
+package com.app.DaoImpl;
+
+import java.util.List;
+
+import javax.persistence.Query;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.app.Daointerface.DaoInterface;
+import com.app.model.User;
+@Repository
+public class DaoImpl implements DaoInterface{
+	List<User>list;
+    @Autowired
+    SessionFactory sf;
+	public int registeruser(User user) {
+	 Session session=sf.openSession();
+	 int i=(int) session.save(user);
+	 session.beginTransaction().commit();
+		return i ;
+	}
+	
+public List<User> alldata()
+	
+	{
+	Session session=	sf.openSession();
+		CriteriaBuilder builder=session.getCriteriaBuilder();
+         CriteriaQuery<User> querry=builder.createQuery(User.class);
+		Root<User>	root=querry.from(User.class);
+		
+		querry.select(root);
+		Query  q1=session.createQuery(querry);
+		list=((org.hibernate.Query<User>) q1).list();
+			return list;
+		
+	}
+	public List<User> login(User user)
+	{
+		Session session=sf.openSession();
+		
+		CriteriaBuilder builder=session.getCriteriaBuilder();
+		
+						javax.persistence.criteria.CriteriaQuery<User> q =builder.createQuery(User.class);
+						
+					Root<User>	root=q.from(User.class);
+					
+					q.select(root).where(builder.equal(root.get("username"),user.getUsername()),builder.equal(root.get("password"),user.getPassword()) );
+					
+					Query q1=session.createQuery(q);
+							
+				List<User>	list1=q1.list();
+				if(!list1.isEmpty())
+				{
+					
+					list=alldata();
+				}
+				return list;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+
+	@Override
+	public List<User> deleteUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User edit(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<User> update(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

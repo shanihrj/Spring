@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AjaxBootApplication/src/main/java/com/cjc/main/AppConfig.java&apos; to &apos;Test.java&apos;" description="Rename resource &apos;AppConfig.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/cjc/main/AppConfig.java" name="Test.java" stamp="1540263770676" updateReferences="true"/>
+</session>

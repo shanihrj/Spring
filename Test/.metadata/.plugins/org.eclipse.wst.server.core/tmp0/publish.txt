@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Oct 15 13:12:51 IST 2018
+org.eclipse.jst.jee.server\:/binary\:G\:\\Program\ Backup\\Spring\\Test\\SpringCurdMVC\\WebContent\\WEB-INF\\lib\\spring-web-5.1.0.RELEASE.jar=WEB-INF/lib/spring-web-5.1.0.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:G\:\\Program\ Backup\\Spring\\Test\\SpringCurdMVC\\WebContent\\WEB-INF\\lib\\spring-web-5.1.0.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.1.0.RELEASE-sources.jar

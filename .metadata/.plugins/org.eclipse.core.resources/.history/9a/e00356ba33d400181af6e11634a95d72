@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+</head>
+<body background="G:\Wallpaper\Random\bili.jpg">
+	<h2><font color="white"><center>Login Page</center></font></h2>
+	<center><table background="G:\Wallpaper\Random\bili.jpg">
+		
+			<tr>
+				<td><h4><font color="yellow">UserName:-</font></td><td><input type="text" name="t1"></td>
+			</tr>
+			<tr>
+				<td><h4><font color="yellow">Password:-</font></td><td><input type="Password" name="t1"></td>
+			</tr>
+		
+	</table>
+	</center>
+     
+      
+	</body>
+
+</html>
